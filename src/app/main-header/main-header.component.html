@@ -1,0 +1,40 @@
+<header class="header">
+  <div class="container">
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <a class="navbar-item" routerLink="/">
+          <img loading="lazy" src="../../assets/images/logo__white.svg"
+               alt="" width="175"
+               height="40">
+        </a>
+        <div class="navbar-burger burger" data-target="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="navbar-menu" id="menu">
+        <div class="navbar-start">
+          <a class="navbar-item" routerLink="/betbot">
+            PushMoneyBot . Bot
+          </a>
+          <a class="navbar-item" routerLink="/about">
+            О нас
+          </a>
+          <a class="navbar-item" target="_blank" href="https://docs.bettingco.ru/">
+            Мануал
+          </a>
+        </div>
+        <div class="navbar-end">
+          <a class="btn btn__green__outline" target="_blank" rel="nofollow" href="https://vk.com/betting_co">Тех. Поддержка | Группа VK</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+<div class="cookie-banner">
+  <p style="color: #5e6768;">
+    Мы не являемся гэмблинг площадкой, не сотрудничаем с букмекерскими конторами и казино, а так же не продаем/распространяем какую-либо информацию касающуюся азартных игр.
+  </p>
+  <button (click)="closeButton()" #cookieBanner id='banner_close' class="btn__small btn__green"><img loading="lazy" src="../../assets/images/icon__exit.svg" alt="VISA"></button>
+</div>
